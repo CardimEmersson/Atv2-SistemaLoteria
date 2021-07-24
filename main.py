@@ -1,3 +1,5 @@
+import random
+
 game = []
 
 while True:
@@ -22,3 +24,9 @@ while True:
         print("Valor inválido: ", e)
 
 print(game)
+
+drawnNumbers = []
+drawnNumbers.append(int(random.random() * 9))
+drawnNumbers.append(int(random.random() * 9))
+
+print(drawnNumbers)
